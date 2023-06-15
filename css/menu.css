@@ -1,0 +1,79 @@
+
+body {
+		background-color: black;
+	}
+
+/* Redimensione a janela do navegador. Quando a largura deste documento é de 600 pixels ou menos, a cor do plano de fundo é "azul claro"; caso contrário, é "amarela".	 */
+@media only screen and (max-width: 600px) {
+  span.wrap {
+	white-space:nowrap;
+	}
+}
+
+.header {
+    border: 1px solid red;
+    background: #000000e6;
+	text-align: center;
+	padding: 16px;
+	margin-top: 2px;
+	margin-left: -12px;
+    margin-right: -12px;
+}
+	
+.header > h6 {
+	color: white;
+}	
+
+.header > span {
+	color: white;
+}
+		
+.title {
+	color: #a2d5e5 !important;
+	font-size: 25px;
+}	
+
+.subtitle {
+   color: gold !important;
+   font-size: 25px;
+}
+
+span{
+	font-family: arial,sans-serif-light,sans-serif;
+}
+
+.footer {
+  background-color: #8c2c2c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: black 1px solid;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0e0e0e;
+    border-color: #d0aa1e;
+}
+
+img.card-img-top {
+    height: 215px;
+}	
+
+.card{
+	height: 478px;
+}
+
+.col-lg-3 {
+    padding: 8px;	
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

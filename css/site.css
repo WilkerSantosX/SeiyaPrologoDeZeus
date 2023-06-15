@@ -1,0 +1,75 @@
+
+body {
+		background-image: url('../img/capa_1200x675.jpg');
+	}
+
+/* Redimensione a janela do navegador. Quando a largura deste documento é de 600 pixels ou menos, a cor do plano de fundo é "azul claro"; caso contrário, é "amarela".	 */
+@media only screen and (max-width: 600px) {
+  body {
+	background-image: url('../img/card_5_zeus.jpg');
+	background-size: cover;
+	background-repeat:no-repeat;
+  }
+  span.wrap {
+	white-space:nowrap;
+	}
+}
+
+.header {
+    border: 1px solid red;
+    background: #000000e6;
+	text-align: center;
+	padding: 16px;
+	margin-top: 2px;
+	height:128px;
+	margin-left: -12px;
+        margin-right: -12px;
+}
+	
+.header > h6 {
+	color: white;
+}	
+		
+.title {
+	color: #a2d5e5;
+	font-size: 25px;
+}	
+
+.subtitle {
+   color: gold;
+   font-size: 25px;
+}
+
+span{
+	font-family: arial,sans-serif-light,sans-serif;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8c2c2c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: black 1px solid;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0e0e0e;
+    border-color: #d0aa1e;
+}	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
